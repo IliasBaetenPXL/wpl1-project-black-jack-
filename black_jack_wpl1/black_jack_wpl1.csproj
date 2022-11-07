@@ -100,5 +100,8 @@
   <ItemGroup>
     <Resource Include="d292592e56e8aa2054919d098f4c27e6.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="poker mat I.B.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

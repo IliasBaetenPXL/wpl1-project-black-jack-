@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/d292592e56e8aa2054919d098f4c27e6.jpg"/>
+            <ImageBrush ImageSource="/poker mat I.B.png"/>
         </Grid.Background>
         <Viewbox>
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="146" Width="278">
@@ -17,9 +17,9 @@
         </Viewbox>
        
             <Button x:Name="play" Content="Play" HorizontalAlignment="Center" Height="42" VerticalAlignment="Top" Width="96" BorderBrush="Black" Foreground="White" OpacityMask="#FFEDEDED" Background="Black" Margin="0,351,0,0" />
-            <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="740,10,0,0" VerticalAlignment="Top" Width="50"/>
-            <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="183,351,0,0" VerticalAlignment="Top" Width="146"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="462,351,0,0" VerticalAlignment="Top" Height="42" Width="138"/>
+            <Button x:Name="Btn_Reset" Content="reset" HorizontalAlignment="Left" Height="42" Margin="740,10,0,0" VerticalAlignment="Top" Width="50"/>
+            <Button x:Name="Btn_Stand" Content="Stand" HorizontalAlignment="Left" Height="42" Margin="183,351,0,0" VerticalAlignment="Top" Width="146"/>
+            <Button x:Name="Btn_Hit" Content="Hit" HorizontalAlignment="Left" Margin="466,351,0,0" VerticalAlignment="Top" Height="42" Width="138" Click="Button_Click"/>
 
 
 
