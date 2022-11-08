@@ -5,21 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:black_jack_wpl1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowState="Normal">
     <Grid>
+        
         <Grid.Background>
             <ImageBrush ImageSource="/poker mat I.B.png"/>
         </Grid.Background>
         <Viewbox>
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="146" Width="278">
-                <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="/pinpng.com-blackjack-png-6305495.png" Height="36" Width="93" Margin="103,0,0,0"/>
+                <Image HorizontalAlignment="Center" VerticalAlignment="Top" Source="/pinpng.com-blackjack-png-6305495.png" Height="38" Width="74"/>
+                <TextBox HorizontalAlignment="Left" Margin="25,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" Height="65" BorderBrush="Red" Background="{x:Null}" Foreground="#FFEAEAEA"/>
+                <TextBox HorizontalAlignment="Left" Margin="181,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" Height="65" BorderBrush="Black" Foreground="White" Background="{x:Null}"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,17,0,0" TextWrapping="Wrap" Text="dealer" VerticalAlignment="Top" Foreground="Black" FontFamily="Wide Latin"/>
+                <TextBlock HorizontalAlignment="Left" Margin="189,17,0,0" TextWrapping="Wrap" Text="player" VerticalAlignment="Top" Foreground="Red" FontFamily="Wide Latin"/>
+
+
             </Grid>
         </Viewbox>
-       
-            <Button x:Name="play" Content="Play" HorizontalAlignment="Center" Height="42" VerticalAlignment="Top" Width="96" BorderBrush="Black" Foreground="White" OpacityMask="#FFEDEDED" Background="Black" Margin="0,351,0,0" />
-            <Button x:Name="Btn_Reset" Content="reset" HorizontalAlignment="Left" Height="42" Margin="740,10,0,0" VerticalAlignment="Top" Width="50"/>
-            <Button x:Name="Btn_Stand" Content="Stand" HorizontalAlignment="Left" Height="42" Margin="183,351,0,0" VerticalAlignment="Top" Width="146"/>
-            <Button x:Name="Btn_Hit" Content="Hit" HorizontalAlignment="Left" Margin="466,351,0,0" VerticalAlignment="Top" Height="42" Width="138" Click="Button_Click"/>
+
+        <Button x:Name="play" Content="Play" Height="42" Width="90" MinWidth="90" HorizontalAlignment="Center" VerticalAlignment="Bottom" MinHeight="42" BorderBrush="Black" Foreground="White" OpacityMask="#FFEDEDED" Background="Black" Margin="366,351,344,42" />
+        <Button x:Name="Btn_Reset" Content="reset" Margin="725,22,25,370" Height="50" Width="50" MinWidth="50" MinHeight="50" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <Button x:Name="Btn_Stand" Content="Stand" Margin="177,351,477,42" Height="42" Width="146" MinWidth="146" MinHeight="42" HorizontalAlignment="center" VerticalAlignment="Bottom" Background="Red" BorderBrush="Black" Foreground="#FFFDFDFD"/>
+        <Button x:Name="Btn_Hit" Content="Hit" Margin="494,351,160,42" Height="42" Width="146" MinWidth="146" MinHeight="42" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="Red" BorderBrush="Black" Foreground="White"/>
 
 
 
